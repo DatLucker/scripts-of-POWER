@@ -1,0 +1,14 @@
+echo "# scripts-of-POWER" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:anddreyka/scripts-of-POWER.git
+git push -u origin main
+
+
+
+#Палю скрипт. Вельми полезный для ансамбля: выявляет неиспользуемые переменные и показывает все места, где используются те, которые таки используются.
+#При условии, что:
+#1. Переменные в inventory. Теоретически работает для других.
+#2. Перенные оформлены, как того требует линтер ансибла.
